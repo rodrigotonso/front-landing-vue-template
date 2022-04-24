@@ -1,0 +1,413 @@
+$blue-lighten-4: #BFDEFC;
+$blue-lighten-3: #98CAFB;
+$blue-lighten-2: #71B6F8;
+$blue-lighten-1: #55A6F8;
+
+$blue-accent-4: #0A7CE5;
+$blue-accent-3: #0F58C2;
+$blue-accent-2: #0B4CAC;
+$blue-accent-1: #163E97;
+$blue: #112E71;
+$blue-darken-1: #0D2458;
+$blue-darken-2: #061B43;
+$blue-darken-3: #05132D;
+$blue-darken-4: #030E1E;
+
+$orange-lighten-4: #FDECB0;
+$orange-lighten-3: #FCDF7C;
+$orange-lighten-2: #FBD440;
+$orange-lighten-1: #FAC900;
+
+$orange-accent-4: #F9B641;
+$orange-accent-3: #F8A600;
+$orange-accent-2: #F38B00;
+$orange-accent-1: #EC7B00;
+$orange: #FF6600;
+$orange-darken-1: #EA4F0A;
+$orange-darken-2: #CF4100;
+$orange-darken-3: #B73400;
+$orange-darken-4: #9C2F04;
+
+$red-lighten-4: #FBCDD2;
+$red-lighten-3: #E99999;
+$red-lighten-2: #DD7271;
+$red-lighten-1: #E6514C;
+$red : #FF3030;
+$red-darken-1: #CA2C2A;
+$red-darken-2: #BE2522;
+$red-darken-3: #AF1815;
+$red-darken-4: #9E0F0C;
+
+$green-lighten-4: #D4FBDB;
+$green-lighten-3: #BFF6C9;
+$green-lighten-2: #92F9A8;
+$green-lighten-1: #56FF7A;
+$green : #00EE33;
+$green-darken-1: #01E131;
+$green-darken-2: #04D831;
+$green-darken-3: #04BF2C;
+$green-darken-4: #04AB28;
+
+$grey-lighten-4: #EEEEEE;
+$grey-lighten-3: #E0E0E0;
+$grey-lighten-2: #D5D5D5;
+$grey-lighten-1: #B0B0B0;
+$grey: #9E9E9E;
+$grey-darken-1: #757575;
+$grey-darken-2: #616161;
+$grey-darken-3: #424242;
+$grey-darken-4: #212121;
+
+
+*[color~="blue"] {
+    color: $blue;
+
+    &[color~="darken-1"] {
+        color: $blue-darken-1
+    }
+    &[color~="darken-2"] {
+        color: $blue-darken-2
+    }
+    &[color~="darken-3"] {
+        color: $blue-darken-3
+    }
+    &[color~="darken-4"] {
+        color: $blue-darken-4
+    }
+
+    &[color~="accent-1"] {
+        color: $blue-accent-1
+    }
+    &[color~="accent-2"] {
+        color: $blue-accent-2
+    }
+    &[color~="accent-3"] {
+        color: $blue-accent-3
+    }
+    &[color~="accent-4"] {
+        color: $blue-accent-4
+    }
+
+    &[color~="lighten-1"] {
+        color: $blue-lighten-1
+    }
+    &[color~="lighten-2"] {
+        color: $blue-lighten-2
+    }
+    &[color~="lighten-3"] {
+        color: $blue-lighten-3
+    }
+    &[color~="lighten-4"] {
+        color: $blue-lighten-4
+    }
+}
+
+*[color~="orange"] {
+    color: $orange;
+
+    &[color~="darken-1"] {
+        color: $orange-darken-1
+    }
+    &[color~="darken-2"] {
+        color: $orange-darken-2
+    }
+    &[color~="darken-3"] {
+        color: $orange-darken-3
+    }
+    &[color~="darken-4"] {
+        color: $orange-darken-4
+    }
+
+    &[color~="accent-1"] {
+        color: $orange-accent-1
+    }
+    &[color~="accent-2"] {
+        color: $orange-accent-2
+    }
+    &[color~="accent-3"] {
+        color: $orange-accent-3
+    }
+    &[color~="accent-4"] {
+        color: $orange-accent-4
+    }
+
+    &[color~="lighten-1"] {
+        color: $orange-lighten-1
+    }
+    &[color~="lighten-2"] {
+        color: $orange-lighten-2
+    }
+    &[color~="lighten-3"] {
+        color: $orange-lighten-3
+    }
+    &[color~="lighten-4"] {
+        color: $orange-lighten-4
+    }
+}
+
+*[color~="red"] {
+    color: $red;
+
+    &[color~="darken-1"] {
+        color: $red-darken-1
+    }
+    &[color~="darken-2"] {
+        color: $red-darken-2
+    }
+    &[color~="darken-3"] {
+        color: $red-darken-3
+    }
+    &[color~="darken-4"] {
+        color: $red-darken-4
+    }
+
+    &[color~="lighten-1"] {
+        color: $red-lighten-1
+    }
+    &[color~="lighten-2"] {
+        color: $red-lighten-2
+    }
+    &[color~="lighten-3"] {
+        color: $red-lighten-3
+    }
+    &[color~="lighten-4"] {
+        color: $red-lighten-4
+    }
+}
+
+*[color~="green"] {
+    color: $green;
+
+    &[color~="darken-1"] {
+        color: $green-darken-1
+    }
+    &[color~="darken-2"] {
+        color: $green-darken-2
+    }
+    &[color~="darken-3"] {
+        color: $green-darken-3
+    }
+    &[color~="darken-4"] {
+        color: $green-darken-4
+    }
+
+    &[color~="lighten-1"] {
+        color: $green-lighten-1
+    }
+    &[color~="lighten-2"] {
+        color: $green-lighten-2
+    }
+    &[color~="lighten-3"] {
+        color: $green-lighten-3
+    }
+    &[color~="lighten-4"] {
+        color: $green-lighten-4
+    }
+}
+
+*[color~="grey"] {
+    color: $grey;
+
+    &[color~="darken-1"] {
+        color: $grey-darken-1
+    }
+    &[color~="darken-2"] {
+        color: $grey-darken-2
+    }
+    &[color~="darken-3"] {
+        color: $grey-darken-3
+    }
+    &[color~="darken-4"] {
+        color: $grey-darken-4
+    }
+
+    &[color~="lighten-1"] {
+        color: $grey-lighten-1
+    }
+    &[color~="lighten-2"] {
+        color: $grey-lighten-2
+    }
+    &[color~="lighten-3"] {
+        color: $grey-lighten-3
+    }
+    &[color~="lighten-4"] {
+        color: $grey-lighten-4
+    }
+}
+
+
+*[background~="blue"] {
+    background: $blue;
+
+    &[background~="darken-1"] {
+        background: $blue-darken-1
+    }
+    &[background~="darken-2"] {
+        background: $blue-darken-2
+    }
+    &[background~="darken-3"] {
+        background: $blue-darken-3
+    }
+    &[background~="darken-4"] {
+        background: $blue-darken-4
+    }
+
+    &[background~="accent-1"] {
+        background: $blue-accent-1
+    }
+    &[background~="accent-2"] {
+        background: $blue-accent-2
+    }
+    &[background~="accent-3"] {
+        background: $blue-accent-3
+    }
+    &[background~="accent-4"] {
+        background: $blue-accent-4
+    }
+
+    &[background~="lighten-1"] {
+        background: $blue-lighten-1
+    }
+    &[background~="lighten-2"] {
+        background: $blue-lighten-2
+    }
+    &[background~="lighten-3"] {
+        background: $blue-lighten-3
+    }
+    &[background~="lighten-4"] {
+        background: $blue-lighten-4
+    }
+}
+
+*[background~="orange"] {
+    background: $orange;
+
+    &[background~="darken-1"] {
+        background: $orange-darken-1
+    }
+    &[background~="darken-2"] {
+        background: $orange-darken-2
+    }
+    &[background~="darken-3"] {
+        background: $orange-darken-3
+    }
+    &[background~="darken-4"] {
+        background: $orange-darken-4
+    }
+
+    &[background~="accent-1"] {
+        background: $orange-accent-1
+    }
+    &[background~="accent-2"] {
+        background: $orange-accent-2
+    }
+    &[background~="accent-3"] {
+        background: $orange-accent-3
+    }
+    &[background~="accent-4"] {
+        background: $orange-accent-4
+    }
+
+    &[background~="lighten-1"] {
+        background: $orange-lighten-1
+    }
+    &[background~="lighten-2"] {
+        background: $orange-lighten-2
+    }
+    &[background~="lighten-3"] {
+        background: $orange-lighten-3
+    }
+    &[background~="lighten-4"] {
+        background: $orange-lighten-4
+    }
+}
+
+*[background~="red"] {
+    background: $red;
+
+    &[background~="darken-1"] {
+        background: $red-darken-1
+    }
+    &[background~="darken-2"] {
+        background: $red-darken-2
+    }
+    &[background~="darken-3"] {
+        background: $red-darken-3
+    }
+    &[background~="darken-4"] {
+        background: $red-darken-4
+    }
+
+    &[background~="lighten-1"] {
+        background: $red-lighten-1
+    }
+    &[background~="lighten-2"] {
+        background: $red-lighten-2
+    }
+    &[background~="lighten-3"] {
+        background: $red-lighten-3
+    }
+    &[background~="lighten-4"] {
+        background: $red-lighten-4
+    }
+}
+
+*[background~="green"] {
+    background: $green;
+
+    &[background~="darken-1"] {
+        background: $green-darken-1
+    }
+    &[background~="darken-2"] {
+        background: $green-darken-2
+    }
+    &[background~="darken-3"] {
+        background: $green-darken-3
+    }
+    &[background~="darken-4"] {
+        background: $green-darken-4
+    }
+
+    &[background~="lighten-1"] {
+        background: $green-lighten-1
+    }
+    &[background~="lighten-2"] {
+        background: $green-lighten-2
+    }
+    &[background~="lighten-3"] {
+        background: $green-lighten-3
+    }
+    &[background~="lighten-4"] {
+        background: $green-lighten-4
+    }
+}
+
+*[background~="grey"] {
+    background: $grey;
+
+    &[background~="darken-1"] {
+        background: $grey-darken-1
+    }
+    &[background~="darken-2"] {
+        background: $grey-darken-2
+    }
+    &[background~="darken-3"] {
+        background: $grey-darken-3
+    }
+    &[background~="darken-4"] {
+        background: $grey-darken-4
+    }
+
+    &[background~="lighten-1"] {
+        background: $grey-lighten-1
+    }
+    &[background~="lighten-2"] {
+        background: $grey-lighten-2
+    }
+    &[background~="lighten-3"] {
+        background: $grey-lighten-3
+    }
+    &[background~="lighten-4"] {
+        background: $grey-lighten-4
+    }
+}

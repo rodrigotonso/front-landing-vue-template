@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'rajdhani';
+    src: url('~@/assets/fonts/rajdhani/rajdhani-bold-webfont.woff2') format('woff2'),
+         url('~@/assets/fonts/rajdhani/rajdhani-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rajdhani';
+    src: url('~@/assets/fonts/rajdhani/rajdhani-bold-webfont.woff2') format('woff2'),
+         url('~@/assets/fonts/rajdhani/rajdhani-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rajdhani';
+    src: url('~@/assets/fonts/rajdhani/rajdhani-light-webfont.woff2') format('woff2'),
+         url('~@/assets/fonts/rajdhani/rajdhani-light-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rajdhani';
+    src: url('~@/assets/fonts/rajdhani/rajdhani-medium-webfont.woff2') format('woff2'),
+         url('~@/assets/fonts/rajdhani/rajdhani-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rajdhani';
+    src: url('~@/assets/fonts/rajdhani/rajdhani-regular-webfont.woff2') format('woff2'),
+         url('~@/assets/fonts/rajdhani/rajdhani-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rajdhani';
+    src: url('~@/assets/fonts/rajdhani/rajdhani-semibold-webfont.woff2') format('woff2'),
+         url('~@/assets/fonts/rajdhani/rajdhani-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.rajdhani {
+    font-family: 'rajdhani';
+}
